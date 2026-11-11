@@ -1,0 +1,320 @@
+# Generato da scripts/make-seo.mjs
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# dominio senza www verso www
+[[redirects]]
+  from = "https://studioingsandrini.com/*"
+  to = "https://www.studioingsandrini.com/:splat"
+  status = 301
+  force = true
+
+# vecchi indirizzi WordPress (301)
+[[redirects]]
+  from = "/about-us"
+  to = "/studio"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contact"
+  to = "/contatti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog"
+  to = "/approfondimenti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog-with-intro"
+  to = "/approfondimenti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/jetpack-portfolio"
+  to = "/progetti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/officine-elettriche-e-impianti-fer-la-scadenza-del-31-marzo-e-piu-vicina-di-quanto-sembri"
+  to = "/approfondimenti/officine-elettriche-e-impianti-fer-la-scadenza-del-31-marzo-e-piu-vicina-di-quanto-sembri"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/3366-2"
+  to = "/approfondimenti/conto-termico-3-0-trasforma-la-diagnosi-energetica-in-un-opp"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/e-arrivato-il-conto-termico-3-0-unopportunita-da-non-perdere"
+  to = "/approfondimenti/e-arrivato-il-conto-termico-3-0-unopportunita-da-non-perdere"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/definita-la-tariffa-incentivante-per-gli-impianti-fer-fino-a-1-mw"
+  to = "/approfondimenti/definita-la-tariffa-incentivante-per-gli-impianti-fer-fino-a-1-mw"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/dm-fer-x-2025-come-accedere-agli-incentivi-per-il-fotovoltaico-e-massimizzare-i-vantaggi"
+  to = "/approfondimenti/dm-fer-x-2025-come-accedere-agli-incentivi-per-il-fotovoltaico-e-massimizzare-i-vantaggi"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/40fondo-perduto_fv"
+  to = "/approfondimenti/40fondo-perduto-fv"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/progettazione-architettonica"
+  to = "/servizi/architettura"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/fotovoltaico"
+  to = "/approfondimenti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/conto-termico-3-0"
+  to = "/approfondimenti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/*"
+  to = "/approfondimenti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tag/*"
+  to = "/approfondimenti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/author/*"
+  to = "/approfondimenti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cryout-featured-blob-category/antincendio"
+  to = "/servizi/progettazione-antincendio"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cryout-featured-blob-category/impianti"
+  to = "/servizi/progettazione-impiantistica"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cryout-featured-blob-category/*"
+  to = "/progetti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/featured/pnrr"
+  to = "/progetti/pnrr"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/featured/fotovoltaico"
+  to = "/progetti/fotovoltaico"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/featured/galbani-prevenzione-incendi"
+  to = "/progetti/prevenzione-incendi-melzo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/featured/prevenzione-incendi"
+  to = "/progetti/prevenzione-incendi-saronno"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/featured/innovazione-e-tecnologia-il-futuro-della-progettazione-con-strumenti-allavanguardia"
+  to = "/servizi/innovazione-e-tecnologia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/featured/*"
+  to = "/progetti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/link-format"
+  to = "/approfondimenti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/aside-post"
+  to = "/approfondimenti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/latest-screenshots"
+  to = "/approfondimenti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/quote-format"
+  to = "/approfondimenti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/my-account"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/checkout"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/basket"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gutenberg-blocks"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sample-page/*"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sample-page"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blank"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/jetpack-portfolio-shortcode"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/shortcodes"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/two-sidebars-right"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/two-sidebars-left"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/typography"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/page/*"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/feed"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/comments/feed"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wp-login.php"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wp-admin/*"
+  to = "/"
+  status = 301
+  force = true
+
+# applicazione a pagina singola: tutte le rotte servono index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

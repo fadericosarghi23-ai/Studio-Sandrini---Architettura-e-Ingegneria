@@ -1,0 +1,14 @@
+{
+  "grid": 256,
+  "bbox": {
+    "west": 9.98,
+    "east": 10.42,
+    "south": 45.76,
+    "north": 46.07
+  },
+  "min": 160,
+  "max": 2975,
+  "kmW": 34.08,
+  "kmH": 34.28,
+  "source": "AWS Terrain Tiles (Mapzen/Tilezen), open data"
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "real-time-rendering",
+    "title": "Real-Time Rendering",
+    "paragraphs": [
+      "Trasformiamo ogni progetto architettonico in un’esperienza visiva altamente realistica grazie all’uso avanzato del Real-Time Rendering. Questa tecnologia ci permette di creare modelli tridimensionali in tempo reale, offrendo un’anteprima immediata e interattiva dei vostri spazi futuri. Il risultato? Una progettazione più accurata, dettagliata e immersiva, che vi consente di visualizzare ogni elemento del design come se fosse già costruito. Con il Real-Time Rendering, il futuro prende forma davanti ai vostri occhi, rendendo il processo decisionale più semplice e sicuro."
+    ],
+    "image": {
+      "src": "/media/tech-real-time-rendering.webp",
+      "sm": "/media/tech-real-time-rendering-sm.webp",
+      "w": 900,
+      "h": 450,
+      "alt": "Real-Time Rendering",
+      "original": "https://www.studioingsandrini.com/wp-content/uploads/2018/05/rendering-acca-edificus.jpg",
+      "hasAlpha": false
+    }
+  },
+  {
+    "slug": "bim",
+    "title": "Progettazione all’avanguardia grazie al BIM",
+    "paragraphs": [
+      "L’adozione del Building Information Modeling (BIM) rivoluziona la nostra progettazione, offrendo innumerevoli vantaggi. Con il BIM, ogni fase del progetto viene gestita in modo integrato, creando un modello digitale che include tutte le informazioni strutturali, impiantistiche e architettoniche. Questo approccio permette una collaborazione ottimale tra i team, una maggiore precisione nella pianificazione e una riduzione significativa dei costi e dei tempi di realizzazione.",
+      "Il BIM ci consente di anticipare criticità, simulare soluzioni, e migliorare la qualità complessiva del progetto. Con noi, la progettazione diventa più intelligente, efficiente e sostenibile."
+    ],
+    "image": {
+      "src": "/media/tech-bim.webp",
+      "sm": "/media/tech-bim-sm.webp",
+      "w": 900,
+      "h": 850,
+      "alt": "Progettazione all’avanguardia grazie al BIM",
+      "original": "https://www.studioingsandrini.com/wp-content/uploads/2018/12/edificus-bim.webp",
+      "hasAlpha": false
+    }
+  },
+  {
+    "slug": "mep",
+    "title": "Efficienza e precisione nella progettazione impiantistica grazie al MEP",
+    "paragraphs": [
+      "L’integrazione del sistema MEP (Mechanical, Electrical, and Plumbing) nei nostri processi di progettazione impiantistica, ci permette di offrire soluzioni innovative e altamente efficienti. L’utilizzo del MEP ci consente di coordinare in modo preciso tutti gli aspetti meccanici, elettrici e idraulici di un progetto, garantendo una perfetta integrazione tra i vari impianti e riducendo al minimo gli errori di progettazione. Il risultato è un’ottimizzazione delle risorse, una maggiore sicurezza e una gestione più fluida delle operazioni in cantiere.",
+      "Scegliendo il MEP, trasformiamo la complessità impiantistica in vantaggi concreti per il vostro progetto."
+    ],
+    "image": {
+      "src": "/media/tech-mep.webp",
+      "sm": "/media/tech-mep-sm.webp",
+      "w": 900,
+      "h": 900,
+      "alt": "Efficienza e precisione nella progettazione impiantistica grazie al MEP",
+      "original": "https://www.studioingsandrini.com/wp-content/uploads/2017/12/edificus-mep.jpg",
+      "hasAlpha": false
+    }
+  }
+]

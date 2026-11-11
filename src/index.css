@@ -1,0 +1,197 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Palette estratta dal CSS reale di studioingsandrini.com (tema Bravada, inline css):
+ *  #e9b44c accento oro (67 occorrenze)      #c7922a oro hover pulsanti
+ *  #162521 titoli                            #707070 testo
+ *  #f3f7f6 sfondo pagina                     #eeebe9 fasce alternate
+ *  #1e3231 footer                            #066664 menu mobile / sottomenu
+ *  #08415c velo dell'hero                    #1c110a fondo del gradiente hero
+ */
+:root {
+  --radius: 0.375rem;
+
+  --gold: #e9b44c;
+  --gold-deep: #c7922a;
+  --ink: #162521;
+  --text: #707070;
+  --paper: #f3f7f6;
+  --sand: #eeebe9;
+  --forest: #1e3231;
+  --petrol: #066664;
+  --sea: #08415c;
+  --umber: #1c110a;
+
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: #ffffff;
+  --card-foreground: var(--ink);
+  --popover: #ffffff;
+  --popover-foreground: var(--ink);
+  --primary: var(--gold);
+  --primary-foreground: var(--ink);
+  --secondary: var(--petrol);
+  --secondary-foreground: #ffffff;
+  --muted: var(--sand);
+  --muted-foreground: var(--text);
+  --accent: var(--sand);
+  --accent-foreground: var(--ink);
+  --destructive: #b3261e;
+  --border: #dbe2e0;
+  --input: #cfd8d5;
+  --ring: var(--gold);
+}
+
+@theme inline {
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Mulish', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-gold: var(--gold);
+  --color-gold-deep: var(--gold-deep);
+  --color-ink: var(--ink);
+  --color-text: var(--text);
+  --color-paper: var(--paper);
+  --color-sand: var(--sand);
+  --color-forest: var(--forest);
+  --color-petrol: var(--petrol);
+  --color-sea: var(--sea);
+  --color-umber: var(--umber);
+
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+  --radius-xl: calc(var(--radius) + 6px);
+
+  --animate-marquee: marquee 38s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/60;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-background font-sans antialiased;
+    /* testo corrente un poco più scuro del #707070 originale: si legge senza fatica */
+    color: #58625f;
+    font-size: 1rem;
+    line-height: 1.75;
+    overflow-x: clip;
+  }
+  h1, h2, h3, h4 {
+    @apply font-serif text-ink;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  ::selection {
+    background: var(--gold);
+    color: var(--ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 3px;
+  }
+}
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+@layer components {
+  /* evidenziatore oro: lo stesso gesto del blocco nel titolo del sito originale */
+  .mark-gold {
+    background: linear-gradient(var(--gold), var(--gold)) no-repeat 0 88% / 100% 0.42em;
+    padding: 0 0.08em;
+  }
+  
+  .eyebrow {
+    @apply font-sans text-[0.72rem] font-extrabold uppercase tracking-[0.28em] text-petrol;
+  }
+}
+
+/* testi importati dagli articoli */
+.prose-sandrini {
+  @apply text-[1.05rem] leading-[1.85] text-[#5f6866];
+}
+.prose-sandrini > * + * { margin-top: 1.1em; }
+.prose-sandrini h2, .prose-sandrini h3, .prose-sandrini h4, .prose-sandrini h5 {
+  @apply font-serif text-ink;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin-top: 2em;
+}
+.prose-sandrini strong { @apply text-ink font-bold; }
+.prose-sandrini a { @apply text-petrol underline decoration-gold decoration-2 underline-offset-4; }
+.prose-sandrini ul { list-style: none; padding-left: 0; }
+.prose-sandrini ul li { position: relative; padding-left: 1.6em; }
+.prose-sandrini ul li + li { margin-top: 0.5em; }
+.prose-sandrini ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.78em;
+  width: 0.8em;
+  height: 2px;
+  background: var(--gold);
+}
+.prose-sandrini ol { list-style: decimal; padding-left: 1.4em; }
+.prose-sandrini img { @apply rounded-md; margin-inline: auto; max-width: 100%; height: auto; }
+.prose-sandrini blockquote { @apply border-l-4 border-gold pl-5 italic; }
+
+/* curve di livello animate (fallback 2.5D e decorazioni) */
+.contour-draw path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: contour-draw 2.6s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+@keyframes contour-draw { to { stroke-dashoffset: 0; } }
+
+/* segnaposto dell'hero vicini al bordo destro: etichetta allineata a destra del punto */
+[data-edge='right'] > a {
+  align-items: flex-end;
+  translate: calc(-100% + 13px) var(--tw-translate-y, 0);
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "studio-sandrini",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "import": "node scripts/import-content.mjs && node scripts/make-derived.mjs && node scripts/make-brand.mjs && node scripts/make-seo.mjs",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@fontsource/mulish": "^5.3.0",
+    "@fontsource/playfair-display": "^5.3.0",
+    "@radix-ui/react-slot": "^1.5.0",
+    "@react-three/fiber": "^9.8.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^14.12.0",
+    "gsap": "^3.15.1",
+    "lenis": "^1.3.27",
+    "lucide-react": "^1.72.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5",
+    "tailwind-merge": "^3.7.0",
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/d3-contour": "^3.0.6",
+    "@types/node": "^24.19.2",
+    "@types/opentype.js": "^1.3.10",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.182.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "cheerio": "^1.2.0",
+    "d3-contour": "^4.0.3",
+    "opentype.js": "^2.0.0",
+    "oxlint": "^1.90.0",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.5",
+    "tw-animate-css": "^1.4.0",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

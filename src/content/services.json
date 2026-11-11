@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "architettura",
+    "name": "Architettura",
+    "tagline": "dove forma, funzionalità e creatività si incontrano.",
+    "paragraphs": [
+      "Progettiamo e realizziamo spazi su misura, pensati per rispondere alle esigenze dei nostri clienti.",
+      "Ogni progetto è un’opportunità per creare ambienti unici, armoniosi e sostenibili, dove estetica e praticità convivono in perfetto equilibrio.",
+      "Che si tratti di residenze private, edifici commerciali, spazi pubblici o interventi di riqualificazione, ci impegniamo a trasformare le vostre idee in realtà, attraverso soluzioni innovative e di qualità. Il nostro approccio è basato sull’ascolto, la ricerca e l’attenzione ai dettagli, per garantire il massimo comfort e benessere in ogni progetto.",
+      "Affidati a noi per dare vita ai tuoi sogni architettonici."
+    ],
+    "icon": "apartment"
+  },
+  {
+    "slug": "efficientamento-energetico",
+    "name": "Efficientamento energetico",
+    "tagline": "soluzioni sostenibili per il futuro dei tuoi spazi",
+    "paragraphs": [
+      "Miglioriamo l’efficienza energetica dei tuoi edifici, riducendo i consumi e minimizzando l’impatto ambientale.",
+      "Progettiamo soluzioni su misura per ottimizzare l’isolamento termico, l’uso delle risorse e l’integrazione di energie rinnovabili.",
+      "Attraverso tecnologie innovative e materiali all’avanguardia, trasformiamo le tue idee in spazi sostenibili e confortevoli, garantendo risparmio energetico e benessere a lungo termine. Affidati a noi per un futuro più green e conveniente."
+    ],
+    "icon": "like"
+  },
+  {
+    "slug": "fonti-rinnovabili",
+    "name": "Fonti rinnovabili",
+    "tagline": "la tua scelta sostenibile per un futuro migliore",
+    "paragraphs": [
+      "Progettiamo soluzioni che integrano fonti di energia rinnovabile per rendere i tuoi spazi più sostenibili ed efficienti.",
+      "Dalla progettazione di impianti solari fotovoltaici all’installazione di sistemi geotermici ed eolici, offriamo soluzioni su misura che rispettano l’ambiente e riducono i costi energetici.",
+      "Collaboriamo con te per creare edifici all’avanguardia, dove l’innovazione tecnologica incontra la responsabilità ambientale. Scegliere energie rinnovabili significa investire nel futuro del pianeta, riducendo l’impronta ecologica e valorizzando i tuoi spazi."
+    ],
+    "icon": "leaf"
+  },
+  {
+    "slug": "direzione-lavori",
+    "name": "Direzione lavori",
+    "tagline": "la nostra esperienza al servizio dei tuoi progetti.",
+    "paragraphs": [
+      "Competenza e professionalità della direzione lavori, garantendo che ogni fase del progetto venga eseguita secondo i più alti standard qualitativi.",
+      "Dalla gestione dei cantieri al coordinamento delle squadre, assicuriamo che tempi, costi e qualità siano rispettati, mantenendo il focus sulle tue esigenze.",
+      "La nostra presenza costante in ogni fase del processo costruttivo ti offre la sicurezza di un lavoro supervisionato nei minimi dettagli, per un risultato finale che rispecchi appieno le tue aspettative. Con noi, ogni progetto è in buone mani."
+    ],
+    "icon": "megaphone"
+  },
+  {
+    "slug": "sicurezza-nei-cantieri",
+    "name": "Sicurezza nei Cantieri",
+    "tagline": "la nostra priorità, la tua tranquillità",
+    "paragraphs": [
+      "Ci impegniamo a garantire la massima sicurezza nei cantieri, tutelando lavoratori, strutture e processi in ogni fase del progetto.",
+      "Offriamo una gestione attenta e qualificata della sicurezza, conforme alle normative vigenti, con piani dettagliati e controlli costanti per prevenire rischi e incidenti.",
+      "La nostra esperienza nella sicurezza cantieristica ti assicura un ambiente di lavoro protetto e sereno, dove ogni operazione viene svolta con la massima attenzione alla salute e alla protezione di tutti gli operatori coinvolti. Con noi, costruisci in sicurezza e con fiducia."
+    ],
+    "icon": "support"
+  },
+  {
+    "slug": "progettazione-impiantistica",
+    "name": "Progettazione impiantistica",
+    "tagline": "soluzioni tecniche su misura per ogni esigenza",
+    "paragraphs": [
+      "Offriamo una competenza completa nella progettazione di ogni tipo di impianto: elettrici, idraulici, termotecnici, industriali e molto altro. Grazie alla nostra esperienza, creiamo soluzioni integrate e personalizzate, capaci di garantire efficienza, sicurezza e affidabilità.",
+      "Che si tratti di impianti per abitazioni, edifici commerciali o strutture industriali, siamo al tuo fianco in tutte le fasi, dalla progettazione alla realizzazione, assicurando l’uso delle tecnologie più avanzate e materiali di alta qualità. Affidati a noi per impianti progettati con cura e precisione, che migliorano il comfort e la funzionalità dei tuoi spazi."
+    ],
+    "icon": "home2"
+  },
+  {
+    "slug": "innovazione-e-tecnologia",
+    "name": "Innovazione e Tecnologia",
+    "tagline": "il futuro della progettazione con strumenti all’avanguardia",
+    "paragraphs": [
+      "Crediamo nell’innovazione come chiave per creare progetti di successo. Utilizziamo le tecnologie più avanzate come BIM (Building Information Modeling), MEP (Mechanical, Electrical, and Plumbing) e Real-Time Rendering per offrire soluzioni progettuali precise, integrate e all’avanguardia.",
+      "Con questi strumenti, siamo in grado di ottimizzare ogni fase del lavoro, dalla progettazione alla gestione dei processi, permettendo una visione completa e dettagliata dei progetti in tempo reale. Innovazione e precisione si fondono per dare vita a spazi che rispondono perfettamente alle tue esigenze, con risultati di qualità superiore."
+    ],
+    "icon": "star"
+  },
+  {
+    "slug": "progettazione-antincendio",
+    "name": "Progettazione Antincendio",
+    "tagline": "proteggi i tuoi spazi con soluzioni sicure ed efficaci",
+    "paragraphs": [
+      "Massima sicurezza per edifici residenziali, commerciali e industriali.",
+      "Dalla consulenza tecnica alla progettazione esecutiva, ci assicuriamo che ogni dettaglio sia curato per prevenire rischi e proteggere persone e strutture. Affidati alla nostra esperienza per rendere i tuoi spazi sicuri e conformi, con impianti antincendio efficienti e tecnologicamente avanzati."
+    ],
+    "icon": "fire2"
+  },
+  {
+    "slug": "calcoli-strutturali",
+    "name": "Calcoli Strutturali",
+    "tagline": "solidità e sicurezza per i tuoi progetti",
+    "paragraphs": [
+      "Garantiamo che ogni progetto, dalle fondazioni alla struttura portante, sia progettato con la massima precisione e affidabilità. Analizziamo ogni dettaglio per assicurare la stabilità e la resistenza degli edifici, utilizzando le tecnologie più avanzate e rispettando le normative in vigore.",
+      "Con la nostra esperienza e attenzione ai dettagli, progettiamo soluzioni strutturali ottimizzate per qualsiasi tipo di costruzione, che sia residenziale, commerciale o industriale. Affidati a noi per dare solidità ai tuoi spazi e costruire con sicurezza e tranquillità."
+    ],
+    "icon": "calculator"
+  }
+]

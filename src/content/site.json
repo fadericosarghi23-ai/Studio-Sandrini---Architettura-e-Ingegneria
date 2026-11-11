@@ -1,0 +1,28 @@
+{
+  "siteTitle": "Studio Sandrini - Architettura e Ingegneria",
+  "contact": {
+    "address": "Via Quarteroni 71, 25047 Darfo Boario Terme (BS)",
+    "phones": [
+      "+39 0364 207409",
+      "+39 347 4519515"
+    ],
+    "email": "info@studioingsandrini.com",
+    "hours": "08:00 alle 18:00"
+  },
+  "socials": [
+    {
+      "href": "https://www.facebook.com/profile.php?id=61565866354909",
+      "network": "Facebook"
+    },
+    {
+      "href": "http://www.pinterest.com/Studio_Sandrini_Arch_e_Ing",
+      "network": "Pinterest"
+    },
+    {
+      "href": "https://x.com/StudioSandrini",
+      "network": "X"
+    }
+  ],
+  "sourceUrl": "https://www.studioingsandrini.com",
+  "importedAt": "2026-11-11"
+}
